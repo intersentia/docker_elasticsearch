@@ -1,6 +1,6 @@
 FROM java:8u92-jre-alpine
 
-MAINTAINER itzg
+MAINTAINER intersentia
 
 ENV ES_VERSION=1.5.1
 
