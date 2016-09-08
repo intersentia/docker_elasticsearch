@@ -4,7 +4,7 @@ MAINTAINER intersentia
 
 ENV ES_VERSION=1.5.1
 
-ADD https://download.elasticsearch.org/elasticsearch/release/org/elasticsearch/distribution/tar/elasticsearch/$ES_VERSION/elasticsearch-$ES_VERSION.tar.gz /tmp/es.tgz
+ADD https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-$ES_VERSION.tar.gz /tmp/es.tgz
 RUN cd /usr/share && \
   tar xf /tmp/es.tgz && \
   rm /tmp/es.tgz
